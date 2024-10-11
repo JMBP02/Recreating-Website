@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    height: 630px;
+}
+
+.twitter-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+
+.image-twitter-container{
+    margin-left: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.twitter-join-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+
+.twitter-image-design{
+    width: 450px;
+}
+
+.Header{
+    font-family: Verdana;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+
+    margin-bottom: 35px;
+}
+
+.Small{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+    margin-bottom: 25px;
+}
+
+.google{
+    padding: 10px 100px;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+
+.google:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.apple{
+    padding: 10px 100px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+
+.apple:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+.or{
+    font-size: 15px;
+    font-family: Verdana;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.create{
+    padding: 10px 114px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(60, 151, 255);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+
+.create:hover{
+    background-color: rgb(53, 133, 224)
+}
+
+.terms{
+    font-family: Verdana;
+    font-size: 11px;
+    color: gray;
+
+    margin-bottom: 60px;
+}
+
+.ask{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+    margin-bottom: 25px;
+}
+
+.sign-in{
+    padding: 10px 141px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    color: rgb(60, 151, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(60, 151, 255);
+}
+
+.sign-in:hover{
+    background-color: rgba(60, 151, 255, 0.096);
+}
+
+.link{
+    color:rgb(60, 151, 255);
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.links{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.link-container{
+    display: flex;
+    font-size: 13px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    font-family: Verdana;
+    color: gray;
+}

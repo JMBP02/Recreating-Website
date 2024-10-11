@@ -1,0 +1,134 @@
+.fb-front{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.fb-container{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.fb-logo-design{
+    height: 100px;
+}
+
+.text-under-logo{
+    font-family: Lucida Sans Regular;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+.input-container{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fb-input-border{
+    border: none;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    box-shadow: 1px  1px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+.input-info{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    padding-left: 17px;
+    padding-right: 125px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-radius: 4px;
+
+    margin-bottom: 15px;
+}
+
+.input-info1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 16px;
+    padding-left: 17px;
+    padding-right: 125px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(199, 199, 199);
+    border-radius: 4px;
+
+    margin-bottom: 15px;
+}
+
+.login-button{
+    padding: 13px 145px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    margin-bottom: 15px;
+
+}
+
+.login-button:hover{
+    background-color: rgb(25, 125, 255)
+}
+
+.forgot-link{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    color:  rgb(0, 110, 255);
+
+    margin-bottom: 15px;
+}
+
+.forgot-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.line{
+    margin-bottom: 25px;
+}
+
+.create-new{
+    padding: 13px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(48, 189, 43);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-new:hover{
+    background-color: rgb(42, 161, 37)
+}
+
+.create-new-container{
+    text-align: center;
+}
+
+.create-page{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.create-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
